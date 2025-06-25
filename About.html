@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CodeNova-About</title>
+  <link rel="icon" type="image/x-icon" href="logo.png">
+<style>
+  body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+    }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #31a2ff;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #177ddd;
+  color: white;
+}
+
+.active {
+  background-color: #1d92ff;
+}
+
+.hero {
+  background-color: #007BFF;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+  font-size: 2em;
+}
+
+.about-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+.about-section h2 {
+  color: #007BFF;
+}
+
+.about-section p {
+  max-width: 800px;
+  margin: 0 auto 20px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.member {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.member h3 {
+  margin-top: 0;
+  color: #007BFF;
+}
+
+.member p {
+  color: #666;
+  font-size: 0.95em;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="News.html">News</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a class="active" href="about.html">About</a></li>
+</ul>
+
+<div class="hero">
+  About Us!
+</div>
+
+<div class="about-section">
+  <h2>Who We Are</h2>
+  <p>We are a team of passionate software developers dedicated to building high-quality digital solutions. From custom web applications to enterprise tools, we help businesses grow through technology.</p>
+
+  <h2>Our Mission</h2>
+  <p>To empower startups, companies, and organizations with reliable, scalable, and modern software solutions that solve real-world problems.</p>
+
+  <h2>Meet the Team</h2>
+  <div class="team">
+    <div class="member">
+      <h3>Toji</h3>
+      <p>Founder & Software Engineer</p>
+      <p>Specializes in full-stack development and system architecture design.</p>
+    </div>
+    <div class="member">
+      <h3>Ayesha</h3>
+      <p>UI/UX Designer</p>
+      <p>Crafts intuitive user interfaces with a focus on user experience.</p>
+    </div>
+    <div class="member">
+      <h3>Bilal</h3>
+      <p>Backend Developer</p>
+      <p>Ensures robust server-side functionality and database performance.</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
