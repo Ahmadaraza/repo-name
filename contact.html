@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CodeNova-Contact</title>
+  <link rel="icon" type="image/x-icon" href="logo.png">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #31a2ff;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      background-color: #177ddd;
+    }
+
+    .active {
+      background-color: #1d92ff;
+    }
+
+    .hero {
+      background-color: #007BFF;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+      font-size: 2em;
+    }
+
+    .contact-form {
+      max-width: 600px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      font-family: Arial, sans-serif;
+    }
+
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    .contact-form textarea {
+      resize: vertical;
+      height: 120px;
+    }
+
+    .contact-form input[type="submit"] {
+      background-color: #007BFF;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .contact-form input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+<ul>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="News.html">News</a></li>
+  <li><a class="active" href="contact.html">Contact</a></li>
+  <li><a href="about.html">About</a></li>
+</ul>
+
+<div class="hero">
+  Contact Us
+</div>
+
+<div class="contact-form">
+  <form action="#" method="post">
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+    <label for="email">Your Email</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+
+    <input type="submit" value="Send Message">
+  </form>
+</div>
+
+</body>
+</html>
