@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Digital Identity </title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background: linear-gradient(to left, #5cd6df, #f162ce);
+                padding: 20px;
+            }
+            .profile-img {
+                border-radius: 20px;
+                box-shadow: 4px 4px 10px grey;
+                width: 200px;
+            }
+            button {
+               padding: 10px 20px;
+               border-radius: 10px;
+               transition: 0.3s;
+            }
+            button:hover {
+                background-color: black;
+                color: white;
+            }
+        </style>
+    </head> 
+    <body>
+        <h1>Welcome to My Digital Identity!</h1>
+
+        <p><strong>Hi I am Ahmad.</strong>i love coding.</p>
+        <ui>
+            <li>Html</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ui>
+        <table border="1">
+            <tr>
+                <th>Day</th>
+                <th>Subject</th>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>Math</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>Science</td>
+            </tr>
+        </table>
+        <a href="https://www.instagram.com/" target="_blank">Follow me on Instagram</a>
+        <a href="https://www.facebook.com/" target="_blank">Follow me on Facebook</a>
+        <img src="images.png" class="profile-img" alt="My Attitude Image">
+        <button id="colorButton">Change Background</button>
+        
+        <script>
+            alert("welcome to my digital identity");
+            const name = "Ahmad";
+            const age = 16;
+            document.write("<p><u>Name:</u> " + name + " | <u>Age:</u> " + age + "</p>");
+            console.log("My favorite subject is English.");
+            document.getElementById("colorBtn").addEventListener("click", function() {
+            document.body.style.background = "linear-gradient(to right, #ffecd2, #fcb69f)";});
+        </script>
+    </body>
+</html>
